@@ -23,7 +23,7 @@ export default function DashboardLayout({
             width={32}
             height={32}
           />
-          <span className="hidden lg:block">
+          <span className="hidden lg:block font-bold">
             SchooLama
           </span>
         </Link>
