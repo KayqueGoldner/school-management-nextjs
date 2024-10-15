@@ -1,4 +1,5 @@
 import { Announcements } from "@/components/Announcements";
+import { BigCalendar } from "@/components/BigCalendar";
 import { EventCalendar } from "@/components/EventCalendar";
 
 const StudentPage = () => {
@@ -10,6 +11,7 @@ const StudentPage = () => {
           <h1 className="text-xl font-semibold">
             Schedule (4A)
           </h1>
+          <BigCalendar />
         </div>
       </div>
       {/* RIGHT */}
